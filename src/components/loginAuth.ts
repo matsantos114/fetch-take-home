@@ -1,4 +1,4 @@
-export const fetchAPI = async (name: string, email: string, navigate: Function) => {
+export const fetchAPI = async (name: string, email: string) => {
   const API = "https://frontend-take-home-service.fetch.com/auth/login";
   try {
     const response = await fetch(API, {

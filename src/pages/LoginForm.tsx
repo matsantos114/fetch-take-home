@@ -20,7 +20,7 @@ const LoginForm: React.FC = () => {
     e.preventDefault();
 
     try {
-      const loginSuccessful = await fetchAPI(name, email, navigate);
+      const loginSuccessful = await fetchAPI(name, email);
 
       if (loginSuccessful) {
         console.log("Redirecting to /posts");
