@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Posts = () => {
-  let API = "https://frontend-take-home-service.fetch.com/dogs/search/breeds=lab";
+  let API = "https://frontend-take-home-service.fetch.com/dogs/search";
 
   const [dogs, setDogs] = useState([]);
   useEffect(() => {
